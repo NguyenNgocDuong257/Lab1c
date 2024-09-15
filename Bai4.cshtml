@@ -1,0 +1,90 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Bai4</title>
+</head>
+<body>
+    <div>
+    </div>
+    <form>
+        <h1>NHẬP THÔNG TIN SINH VIÊN</h1>
+        <table width="1000">
+            <tr>
+                <td><label>HỌ VÀ TÊN:</label></td>
+                <td width="650" colspan="3"><input id="name" type="text" maxlength="30" tabindex="1" /></td>
+            </tr>
+
+            <tr>
+                <td><label>MÃ SỐ SINH VIÊN:</label></td>
+                <td colspan="3"><input id="idstudent" type="text" maxlength="30" tabindex="1" /></td>
+            </tr>
+
+            <tr>
+                <td><label>NGÀY SINH:</label></td>
+                <td colspan="3"><input id="birthdate" type="date" tabindex="1" /></td>
+            </tr>
+
+            <tr>
+                <td><label>CHUYÊN NGÀNH:</label></td>
+                <td width="50" colspan="3">
+                    <input id="major" type="radio" value="CNPM" />CNPM
+                    <input id="major" type="radio" value="HTTT" />HTTT
+                    <input id="major" type="radio" value="AN NINH MẠNG" />AN NINH MẠNG
+                </td>
+
+            </tr>
+
+            <tr>
+                <td><label>SỞ THÍCH:</label></td>
+            </tr>
+            <tr>
+                <td><input id="hobby" type="checkbox" tabindex="1" />VIẾT CHƯƠNG TRÌNH</td>
+            </tr>
+            <tr>
+                <td><input id="hobby" type="checkbox" tabindex="1" />PHÂN TÍCH CSDL</td>
+            </tr>
+            <tr>
+                <td><input id="hobby" type="checkbox" tabindex="1" />XÂY DỰNG SƠ ĐỒ MẠNG</td>
+            </tr>
+
+            <tr>
+                <td><label>MÀU SẮC YÊU THÍCH:</label></td>
+                <td><input id="color" type="color" value="#000000" /></td>
+            </tr>
+
+            <tr>
+                <td><label>HÌNH ĐẠI DIỆN:</label></td>
+                <td>
+                    <input id="avatar" type="button" value="Browse..." tabindex="1" />
+                    &nbsp; No file selected.
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>TÊN ĐĂNG NHẬP WEB TRƯỜNG:</label></td>
+                <td><input id="schoolLogin" type="text" maxlength="30" tabindex="1" /></td>
+            </tr>
+
+            <tr>
+                <td><label>MẬT KHẨU ĐĂNG NHẬP WEB TRƯỜNG:</label></td>
+                <td><input id="schoolpw" type="text" maxlength="30" tabindex="1" /></td>
+            </tr>
+
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+
+            <tr>
+                <td><input id="send" type="button" value="Gửi dữ liệu về máy chủ" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
